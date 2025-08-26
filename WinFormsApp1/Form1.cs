@@ -39,5 +39,10 @@
                 MessageBox.Show("❌ Error en la conexión.");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

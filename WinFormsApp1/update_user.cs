@@ -74,7 +74,7 @@ namespace WinFormsApp1
             string telefono = txtTelefono.Text;
             string email = txtEmail.Text;
             string turno = comboTurno.SelectedItem.ToString();
-          
+
 
             // Construir la sentencia SQL
             string sqlUpdate = $"UPDATE usuarios " +
@@ -101,6 +101,11 @@ namespace WinFormsApp1
                 MessageBox.Show("❌ Error en la conexión.");
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

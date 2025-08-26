@@ -96,5 +96,10 @@ namespace WinFormsApp1
             dtUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtUsers.Columns["id"].Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace WinFormsApp1
             // Construir la sentencia SQL
             string sqlInsert = $"INSERT INTO usuarios (nombre, apellido_paterno, apellido_materno, numero_empleado, telefono, email, turno) " +
                                $"VALUES ('{nombre}', '{paterno}', '{materno}', '{no_empleado}', '{telefono}',  '{email}',  '{turno}')";
-        
+
 
             // Ejecutar
             database db = new database();
@@ -44,6 +44,11 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("❌ Error en la conexión.");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
