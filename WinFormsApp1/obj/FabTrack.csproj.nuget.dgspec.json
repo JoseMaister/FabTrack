@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\FabTrack.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\FabTrack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\WinFormsApp1.csproj",
-        "projectName": "WinFormsApp1",
-        "projectPath": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\FabTrack.csproj",
+        "projectName": "FabTrack",
+        "projectPath": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\FabTrack.csproj",
         "packagesPath": "C:\\Users\\Jose Castañeda\\.nuget\\packages\\",
         "outputPath": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",

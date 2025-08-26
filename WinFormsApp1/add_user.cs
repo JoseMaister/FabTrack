@@ -29,8 +29,9 @@ namespace WinFormsApp1
 
             // Construir la sentencia SQL
             string sqlInsert = $"INSERT INTO usuarios (nombre, apellido_paterno, apellido_materno, numero_empleado, telefono, email, turno) " +
-                               $"VALUES ('{nombre}', '{paterno}', '{materno}', '{email}', '{no_empleado}', '{telefono}',  '{email}',  '{turno}')";
-            MessageBox.Show(sqlInsert);
+                               $"VALUES ('{nombre}', '{paterno}', '{materno}', '{no_empleado}', '{telefono}',  '{email}',  '{turno}')";
+        
+
             // Ejecutar
             database db = new database();
             if (db.OpenConnection())

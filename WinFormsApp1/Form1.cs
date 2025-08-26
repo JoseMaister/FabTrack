@@ -15,7 +15,7 @@
 
         private void verUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            users frm = new users();
+            Usuarios frm = new Usuarios();
             frm.ShowDialog();
 
         }

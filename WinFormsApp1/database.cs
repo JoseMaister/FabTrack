@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System;
 using System.Data;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
@@ -20,7 +21,8 @@ namespace WinFormsApp1
         public database()
         {
             // Ajusta con tus credenciales
-            connectionString = "Server=localhost;Database=fabtrack;User ID=root;Password=;SslMode=none;";
+            connectionString = "Server=192.168.6.22;Database=fabtrack;User ID=jose;Password=123456789;SslMode=none;";
+            //connectionString = "Server=localhost;Database=fabtrack;User ID=root;Password=;SslMode=none;";
             connection = new MySqlConnection(connectionString);
         }
 
@@ -111,5 +113,50 @@ namespace WinFormsApp1
             }
             return result;
         }
+        public Dictionary<string, string> GetEmpleado(string empleadoID)
+        {
+            Dictionary<string, string> empleado = new Dictionary<string, string>();
+
+            try
+            {
+                OpenConnection();
+                string query = @"SELECT id, nombre, apellido_paterno, apellido_materno, 
+                                numero_empleado, telefono, email, turno
+                         FROM usuarios 
+                         WHERE numero_empleado = @id";
+               
+
+                // Copiar automáticamente al portapapeles
+               
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@id", empleadoID);
+                
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    empleado["id"] = reader["id"].ToString();
+                    empleado["nombre"] = reader["nombre"].ToString();
+                    empleado["apellido_paterno"] = reader["apellido_paterno"].ToString();
+                    empleado["apellido_materno"] = reader["apellido_materno"].ToString();
+                    empleado["numero_empleado"] = reader["numero_empleado"].ToString();
+                    empleado["telefono"] = reader["telefono"].ToString();
+                    empleado["email"] = reader["email"].ToString();
+                    empleado["turno"] = reader["turno"].ToString();
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al obtener empleado: " + ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
+
+            return empleado;
+        }
+
     }
 }
