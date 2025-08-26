@@ -61,6 +61,7 @@
             archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             archivoToolStripMenuItem.Size = new Size(60, 20);
             archivoToolStripMenuItem.Text = "Archivo";
+            archivoToolStripMenuItem.Click += archivoToolStripMenuItem_Click;
             // 
             // configToolStripMenuItem
             // 
@@ -80,6 +81,7 @@
             altaUsuariosToolStripMenuItem.Name = "altaUsuariosToolStripMenuItem";
             altaUsuariosToolStripMenuItem.Size = new Size(180, 22);
             altaUsuariosToolStripMenuItem.Text = "Alta Usuarios";
+            altaUsuariosToolStripMenuItem.Click += altaUsuariosToolStripMenuItem_Click;
             // 
             // reportesToolStripMenuItem
             // 
@@ -92,12 +94,14 @@
             verUsuariosToolStripMenuItem.Name = "verUsuariosToolStripMenuItem";
             verUsuariosToolStripMenuItem.Size = new Size(180, 22);
             verUsuariosToolStripMenuItem.Text = "Ver usuarios";
+            verUsuariosToolStripMenuItem.Click += verUsuariosToolStripMenuItem_Click;
             // 
             // modificarUsuariosToolStripMenuItem
             // 
             modificarUsuariosToolStripMenuItem.Name = "modificarUsuariosToolStripMenuItem";
             modificarUsuariosToolStripMenuItem.Size = new Size(180, 22);
             modificarUsuariosToolStripMenuItem.Text = "Modificar usuarios";
+            modificarUsuariosToolStripMenuItem.Click += modificarUsuariosToolStripMenuItem_Click;
             // 
             // tableLayoutPanel1
             // 
