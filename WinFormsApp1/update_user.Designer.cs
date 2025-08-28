@@ -51,17 +51,20 @@
             label8 = new Label();
             txtEmpleadoID = new TextBox();
             button3 = new Button();
+            panel5 = new Panel();
+            button4 = new Button();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // panel3
             // 
             panel3.Controls.Add(button2);
             panel3.Controls.Add(button1);
-            panel3.Location = new Point(204, 375);
+            panel3.Location = new Point(231, 455);
             panel3.Name = "panel3";
             panel3.Size = new Size(302, 74);
             panel3.TabIndex = 12;
@@ -283,11 +286,31 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // panel5
+            // 
+            panel5.Controls.Add(button4);
+            panel5.Location = new Point(231, 375);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(302, 74);
+            panel5.TabIndex = 13;
+            // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(39, 16);
+            button4.Name = "button4";
+            button4.Size = new Size(237, 37);
+            button4.TabIndex = 1;
+            button4.Text = "Guardar";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // update_user
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(799, 546);
+            Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -301,6 +324,7 @@
             panel1.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            panel5.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -329,5 +353,7 @@
         private Label label8;
         private TextBox txtEmpleadoID;
         private Button button3;
+        private Panel panel5;
+        private Button button4;
     }
 }

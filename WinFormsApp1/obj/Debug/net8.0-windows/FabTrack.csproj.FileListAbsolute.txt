@@ -36,3 +36,17 @@ C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\refint\
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.pdb
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.genruntimeconfig.cache
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\ref\FabTrack.dll
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.csproj.AssemblyReference.cache
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.add_user.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.update_user.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Usuarios.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.csproj.GenerateResource.cache
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.AssemblyInfoInputs.cache
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.AssemblyInfo.cs
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.csproj.CoreCompileInputs.cache
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.sourcelink.json
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.dll
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\refint\FabTrack.dll
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.pdb
