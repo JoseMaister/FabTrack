@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace FabTrack
+namespace WinFormsApp1
 {
     /* NOTE: This form is a base for the EnrollmentForm and the VerificationForm,
 		All changes in the CaptureForm will be reflected in all its derived forms.
@@ -107,7 +107,7 @@ namespace FabTrack
 			MakeReport("El lector fue tocado");
 		}
 
-		public void OnReaderConnect(object Capture, string ReaderSerialNumber)
+		public virtual void OnReaderConnect(object Capture, string ReaderSerialNumber)
 		{
 			MakeReport("El Lector de huellas ha sido conectado");
 		}
@@ -173,7 +173,9 @@ namespace FabTrack
 			}));
 		}
 
-		private DPFP.Capture.Capture Capturer;
+        //private DPFP.Capture.Capture Capturer;
+        protected DPFP.Capture.Capture Capturer;
 
-	}
+
+    }
 }

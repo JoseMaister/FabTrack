@@ -33,6 +33,7 @@
             menuStrip1 = new MenuStrip();
             archivoToolStripMenuItem = new ToolStripMenuItem();
             configToolStripMenuItem = new ToolStripMenuItem();
+            caputarurToolStripMenuItem = new ToolStripMenuItem();
             accionesToolStripMenuItem = new ToolStripMenuItem();
             altaUsuariosToolStripMenuItem = new ToolStripMenuItem();
             reportesToolStripMenuItem = new ToolStripMenuItem();
@@ -70,9 +71,18 @@
             // 
             // configToolStripMenuItem
             // 
+            configToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { caputarurToolStripMenuItem });
             configToolStripMenuItem.Name = "configToolStripMenuItem";
             configToolStripMenuItem.Size = new Size(55, 20);
             configToolStripMenuItem.Text = "Config";
+            configToolStripMenuItem.Click += configToolStripMenuItem_Click;
+            // 
+            // caputarurToolStripMenuItem
+            // 
+            caputarurToolStripMenuItem.Name = "caputarurToolStripMenuItem";
+            caputarurToolStripMenuItem.Size = new Size(180, 22);
+            caputarurToolStripMenuItem.Text = "Capturar Lector";
+            caputarurToolStripMenuItem.Click += caputarurToolStripMenuItem_Click;
             // 
             // accionesToolStripMenuItem
             // 
@@ -204,5 +214,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private ToolStripMenuItem caputarurToolStripMenuItem;
     }
 }

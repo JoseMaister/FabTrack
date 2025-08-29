@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\templates\\FabTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\winformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,102 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HuellaHandler.cs",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\HuellaHandler.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\HuellaHandler.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\HuellaHandler.cs",
-              "RelativeToolTip": "WinFormsApp1\\HuellaHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CaptureForm.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\CaptureForm.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs",
+              "RelativeToolTip": "WinFormsApp1\\CaptureForm.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:03:43.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "database.cs",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\database.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\database.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\database.cs",
-              "RelativeToolTip": "WinFormsApp1\\database.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAqwKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T00:56:26.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:58:18.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:57:47.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "users.cs",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\users.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\users.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\users.cs",
-              "RelativeToolTip": "WinFormsApp1\\users.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAcwGUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:56:23.655Z",
+              "WhenOpened": "2025-08-29T18:22:16.391Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "users.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\users.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\users.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\users.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\users.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:54:06.853Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "update_user.cs",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\update_user.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs*",
-              "RelativeToolTip": "WinFormsApp1\\update_user.cs*",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHcAAAABAAAAAAAAAA==",
+              "Title": "add_reader.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\add_reader.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
+              "RelativeToolTip": "WinFormsApp1\\add_reader.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:54:04.665Z",
+              "WhenOpened": "2025-08-29T18:19:11.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "update_user.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\update_user.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WinFormsApp1\\update_user.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "add_reader.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\add_reader.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\add_reader.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:54:03.324Z"
+              "WhenOpened": "2025-08-29T18:14:28.714Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

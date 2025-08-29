@@ -1,4 +1,6 @@
-﻿namespace WinFormsApp1
+﻿using FabTrack;
+
+namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -41,6 +43,17 @@
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void caputarurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            add_reader frm = new add_reader();
+            frm.ShowDialog();
+        }
+
+        private void configToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
