@@ -39,13 +39,27 @@
             reportesToolStripMenuItem = new ToolStripMenuItem();
             verUsuariosToolStripMenuItem = new ToolStripMenuItem();
             modificarUsuariosToolStripMenuItem = new ToolStripMenuItem();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
+            panel1 = new Panel();
+            lblUsuario1 = new Label();
+            lblAccion1 = new Label();
+            lblLector1 = new Label();
+            panel2 = new Panel();
+            lblUsuario3 = new Label();
+            lblAccion3 = new Label();
+            lblLector3 = new Label();
+            panel3 = new Panel();
+            lblUsuario2 = new Label();
+            lblAccion2 = new Label();
+            lblLector2 = new Label();
+            panel4 = new Panel();
+            lblUsuario4 = new Label();
+            lblAccion4 = new Label();
+            lblLector4 = new Label();
             menuStrip1.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
             // contextMenuStrip1
@@ -75,12 +89,11 @@
             configToolStripMenuItem.Name = "configToolStripMenuItem";
             configToolStripMenuItem.Size = new Size(55, 20);
             configToolStripMenuItem.Text = "Config";
-            configToolStripMenuItem.Click += configToolStripMenuItem_Click;
             // 
             // caputarurToolStripMenuItem
             // 
             caputarurToolStripMenuItem.Name = "caputarurToolStripMenuItem";
-            caputarurToolStripMenuItem.Size = new Size(180, 22);
+            caputarurToolStripMenuItem.Size = new Size(156, 22);
             caputarurToolStripMenuItem.Text = "Capturar Lector";
             caputarurToolStripMenuItem.Click += caputarurToolStripMenuItem_Click;
             // 
@@ -118,82 +131,202 @@
             modificarUsuariosToolStripMenuItem.Text = "Modificar usuarios";
             modificarUsuariosToolStripMenuItem.Click += modificarUsuariosToolStripMenuItem_Click;
             // 
-            // tableLayoutPanel1
+            // panel1
             // 
-            tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(label4, 1, 1);
-            tableLayoutPanel1.Controls.Add(label3, 0, 1);
-            tableLayoutPanel1.Controls.Add(label2, 1, 0);
-            tableLayoutPanel1.Controls.Add(label1, 0, 0);
-            tableLayoutPanel1.Location = new Point(10, 61);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(778, 377);
-            tableLayoutPanel1.TabIndex = 3;
+            panel1.Controls.Add(lblUsuario1);
+            panel1.Controls.Add(lblAccion1);
+            panel1.Controls.Add(lblLector1);
+            panel1.Location = new Point(12, 87);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(380, 148);
+            panel1.TabIndex = 3;
             // 
-            // label4
+            // lblUsuario1
             // 
-            label4.AutoSize = true;
-            label4.FlatStyle = FlatStyle.Flat;
-            label4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(392, 188);
-            label4.Name = "label4";
-            label4.Size = new Size(81, 25);
-            label4.TabIndex = 4;
-            label4.Text = "Lector 4";
+            lblUsuario1.AutoSize = true;
+            lblUsuario1.FlatStyle = FlatStyle.Flat;
+            lblUsuario1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblUsuario1.Location = new Point(0, 75);
+            lblUsuario1.Name = "lblUsuario1";
+            lblUsuario1.Size = new Size(83, 25);
+            lblUsuario1.TabIndex = 3;
+            lblUsuario1.Text = "Nombre";
             // 
-            // label3
+            // lblAccion1
             // 
-            label3.AutoSize = true;
-            label3.FlatStyle = FlatStyle.Flat;
-            label3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(3, 188);
-            label3.Name = "label3";
-            label3.Size = new Size(81, 25);
-            label3.TabIndex = 3;
-            label3.Text = "Lector 3";
+            lblAccion1.AutoSize = true;
+            lblAccion1.FlatStyle = FlatStyle.Flat;
+            lblAccion1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAccion1.Location = new Point(0, 40);
+            lblAccion1.Name = "lblAccion1";
+            lblAccion1.Size = new Size(83, 25);
+            lblAccion1.TabIndex = 2;
+            lblAccion1.Text = "Nombre";
             // 
-            // label2
+            // lblLector1
             // 
-            label2.AutoSize = true;
-            label2.FlatStyle = FlatStyle.Flat;
-            label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(392, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(81, 25);
-            label2.TabIndex = 2;
-            label2.Text = "Lector 2";
+            lblLector1.AutoSize = true;
+            lblLector1.FlatStyle = FlatStyle.Flat;
+            lblLector1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLector1.Location = new Point(0, 0);
+            lblLector1.Name = "lblLector1";
+            lblLector1.Size = new Size(73, 25);
+            lblLector1.TabIndex = 1;
+            lblLector1.Text = "Lector1";
             // 
-            // label1
+            // panel2
             // 
-            label1.AutoSize = true;
-            label1.FlatStyle = FlatStyle.Flat;
-            label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(78, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Lector 1";
-            label1.Click += label1_Click;
+            panel2.Controls.Add(lblUsuario3);
+            panel2.Controls.Add(lblAccion3);
+            panel2.Controls.Add(lblLector3);
+            panel2.Location = new Point(12, 241);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(380, 148);
+            panel2.TabIndex = 4;
+            // 
+            // lblUsuario3
+            // 
+            lblUsuario3.AutoSize = true;
+            lblUsuario3.FlatStyle = FlatStyle.Flat;
+            lblUsuario3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblUsuario3.Location = new Point(0, 75);
+            lblUsuario3.Name = "lblUsuario3";
+            lblUsuario3.Size = new Size(83, 25);
+            lblUsuario3.TabIndex = 3;
+            lblUsuario3.Text = "Nombre";
+            // 
+            // lblAccion3
+            // 
+            lblAccion3.AutoSize = true;
+            lblAccion3.FlatStyle = FlatStyle.Flat;
+            lblAccion3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAccion3.Location = new Point(0, 40);
+            lblAccion3.Name = "lblAccion3";
+            lblAccion3.Size = new Size(83, 25);
+            lblAccion3.TabIndex = 2;
+            lblAccion3.Text = "Nombre";
+            // 
+            // lblLector3
+            // 
+            lblLector3.AutoSize = true;
+            lblLector3.FlatStyle = FlatStyle.Flat;
+            lblLector3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLector3.Location = new Point(0, 0);
+            lblLector3.Name = "lblLector3";
+            lblLector3.Size = new Size(76, 25);
+            lblLector3.TabIndex = 1;
+            lblLector3.Text = "Lector3";
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(lblUsuario2);
+            panel3.Controls.Add(lblAccion2);
+            panel3.Controls.Add(lblLector2);
+            panel3.Location = new Point(408, 87);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(380, 148);
+            panel3.TabIndex = 5;
+            // 
+            // lblUsuario2
+            // 
+            lblUsuario2.AutoSize = true;
+            lblUsuario2.FlatStyle = FlatStyle.Flat;
+            lblUsuario2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblUsuario2.Location = new Point(0, 75);
+            lblUsuario2.Name = "lblUsuario2";
+            lblUsuario2.Size = new Size(83, 25);
+            lblUsuario2.TabIndex = 3;
+            lblUsuario2.Text = "Nombre";
+            // 
+            // lblAccion2
+            // 
+            lblAccion2.AutoSize = true;
+            lblAccion2.FlatStyle = FlatStyle.Flat;
+            lblAccion2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAccion2.Location = new Point(0, 40);
+            lblAccion2.Name = "lblAccion2";
+            lblAccion2.Size = new Size(83, 25);
+            lblAccion2.TabIndex = 2;
+            lblAccion2.Text = "Nombre";
+            // 
+            // lblLector2
+            // 
+            lblLector2.AutoSize = true;
+            lblLector2.FlatStyle = FlatStyle.Flat;
+            lblLector2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLector2.Location = new Point(0, 0);
+            lblLector2.Name = "lblLector2";
+            lblLector2.Size = new Size(76, 25);
+            lblLector2.TabIndex = 1;
+            lblLector2.Text = "Lector2";
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(lblUsuario4);
+            panel4.Controls.Add(lblAccion4);
+            panel4.Controls.Add(lblLector4);
+            panel4.Location = new Point(408, 241);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(380, 148);
+            panel4.TabIndex = 6;
+            // 
+            // lblUsuario4
+            // 
+            lblUsuario4.AutoSize = true;
+            lblUsuario4.FlatStyle = FlatStyle.Flat;
+            lblUsuario4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblUsuario4.Location = new Point(0, 75);
+            lblUsuario4.Name = "lblUsuario4";
+            lblUsuario4.Size = new Size(83, 25);
+            lblUsuario4.TabIndex = 3;
+            lblUsuario4.Text = "Nombre";
+            // 
+            // lblAccion4
+            // 
+            lblAccion4.AutoSize = true;
+            lblAccion4.FlatStyle = FlatStyle.Flat;
+            lblAccion4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAccion4.Location = new Point(0, 40);
+            lblAccion4.Name = "lblAccion4";
+            lblAccion4.Size = new Size(83, 25);
+            lblAccion4.TabIndex = 2;
+            lblAccion4.Text = "Nombre";
+            // 
+            // lblLector4
+            // 
+            lblLector4.AutoSize = true;
+            lblLector4.FlatStyle = FlatStyle.Flat;
+            lblLector4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLector4.Location = new Point(0, 0);
+            lblLector4.Name = "lblLector4";
+            lblLector4.Size = new Size(76, 25);
+            lblLector4.TabIndex = 1;
+            lblLector4.Text = "Lector4";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(tableLayoutPanel1);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "FabTrack";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -209,11 +342,22 @@
         private ToolStripMenuItem reportesToolStripMenuItem;
         private ToolStripMenuItem verUsuariosToolStripMenuItem;
         private ToolStripMenuItem modificarUsuariosToolStripMenuItem;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private ToolStripMenuItem caputarurToolStripMenuItem;
+        private Panel panel1;
+        private Label lblUsuario1;
+        private Label lblAccion1;
+        private Label lblLector1;
+        private Panel panel2;
+        private Label lblUsuario3;
+        private Label lblAccion3;
+        private Label lblLector3;
+        private Panel panel3;
+        private Label lblUsuario2;
+        private Label lblAccion2;
+        private Label lblLector2;
+        private Panel panel4;
+        private Label lblUsuario4;
+        private Label lblAccion4;
+        private Label lblLector4;
     }
 }

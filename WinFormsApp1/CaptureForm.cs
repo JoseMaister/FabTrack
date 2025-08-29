@@ -52,9 +52,9 @@ namespace WinFormsApp1
                     Capturer.StartCapture();
                     SetPrompt("Escanea tu huella usando el lector");
                 }
-                catch
+                catch(Exception e)
                 {
-                    SetPrompt("No se puede iniciar la captura");
+                    SetPrompt("No se puede iniciar la captura"+e);
                 }
             }
 		}
@@ -107,7 +107,7 @@ namespace WinFormsApp1
 			MakeReport("El lector fue tocado");
 		}
 
-		public virtual void OnReaderConnect(object Capture, string ReaderSerialNumber)
+		public void OnReaderConnect(object Capture, string ReaderSerialNumber)
 		{
 			MakeReport("El Lector de huellas ha sido conectado");
 		}
@@ -173,9 +173,7 @@ namespace WinFormsApp1
 			}));
 		}
 
-        //private DPFP.Capture.Capture Capturer;
-        protected DPFP.Capture.Capture Capturer;
+		private DPFP.Capture.Capture Capturer;
 
-
-    }
+	}
 }

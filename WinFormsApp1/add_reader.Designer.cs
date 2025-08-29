@@ -32,7 +32,7 @@
             button2 = new Button();
             button1 = new Button();
             panel2 = new Panel();
-            txtserie = new TextBox();
+            cbLectores = new ComboBox();
             txtname = new TextBox();
             panel1 = new Panel();
             label1 = new Label();
@@ -74,20 +74,20 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(txtserie);
+            panel2.Controls.Add(cbLectores);
             panel2.Controls.Add(txtname);
             panel2.Location = new Point(334, 92);
             panel2.Name = "panel2";
             panel2.Size = new Size(375, 117);
             panel2.TabIndex = 11;
             // 
-            // txtserie
+            // cbLectores
             // 
-            txtserie.Location = new Point(8, 60);
-            txtserie.Name = "txtserie";
-            txtserie.ReadOnly = true;
-            txtserie.Size = new Size(265, 23);
-            txtserie.TabIndex = 1;
+            cbLectores.FormattingEnabled = true;
+            cbLectores.Location = new Point(8, 65);
+            cbLectores.Name = "cbLectores";
+            cbLectores.Size = new Size(267, 23);
+            cbLectores.TabIndex = 2;
             // 
             // txtname
             // 
@@ -137,6 +137,7 @@
             Controls.Add(panel1);
             Name = "add_reader";
             Text = "Agregar Lector";
+            Load += add_reader_Load;
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -151,10 +152,10 @@
         private Button button2;
         private Button button1;
         private Panel panel2;
-        private TextBox txtserie;
         private TextBox txtname;
         private Panel panel1;
         private Label label1;
         private Label label2;
+        private ComboBox cbLectores;
     }
 }

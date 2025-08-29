@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\templates\\FabTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\add_reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\xampp\\htdocs\\templates\\fabtrack\\winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\captureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CaptureForm.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\CaptureForm.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs",
-              "RelativeToolTip": "WinFormsApp1\\CaptureForm.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowHEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs*",
+              "RelativeToolTip": "WinFormsApp1\\CaptureForm.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:22:16.391Z",
+              "WhenOpened": "2025-08-29T22:57:42.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "add_reader.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\add_reader.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
-              "RelativeToolTip": "WinFormsApp1\\add_reader.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CaptureForm.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\CaptureForm.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\CaptureForm.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\CaptureForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:19:11.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "add_reader.cs [Design]",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\add_reader.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\templates\\FabTrack\\WinFormsApp1\\add_reader.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\add_reader.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:14:28.714Z",
+              "WhenOpened": "2025-08-29T22:57:41.509Z",
               "EditorCaption": " [Design]"
             }
           ]

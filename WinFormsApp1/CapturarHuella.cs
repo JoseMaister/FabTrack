@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
-
 {
 
     public partial class CapturarHuella : CaptureForm
