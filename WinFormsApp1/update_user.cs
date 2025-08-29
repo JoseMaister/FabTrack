@@ -114,10 +114,7 @@ namespace WinFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
 
-            captura = new Capture();
-            captura.EventHandler = new HuellaHandler(this);
-            captura.StartCapture();
-            MessageBox.Show("Coloca tu pulgar en el lector...");
+           
         }
     }
 }

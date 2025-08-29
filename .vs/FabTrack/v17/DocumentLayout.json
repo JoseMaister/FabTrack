@@ -54,8 +54,7 @@
               "RelativeToolTip": "WinFormsApp1\\HuellaHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:03:43.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T01:03:43.807Z"
             },
             {
               "$type": "Document",
@@ -122,9 +121,9 @@
               "Title": "update_user.cs",
               "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\update_user.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
-              "RelativeToolTip": "WinFormsApp1\\update_user.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHQAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs*",
+              "RelativeToolTip": "WinFormsApp1\\update_user.cs*",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T17:54:04.665Z",
               "EditorCaption": ""
@@ -138,8 +137,7 @@
               "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs [Dise\u00F1o]",
               "RelativeToolTip": "WinFormsApp1\\update_user.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:54:03.324Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-08-26T17:54:03.324Z"
             }
           ]
         }

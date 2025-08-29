@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\update_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|solutionrelative:winformsapp1\\huellahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B3852C5-9348-4521-A73A-216A9B084BAE}|WinFormsApp1\\FabTrack.csproj|c:\\users\\eljos\\onedrive\\documents\\repos\\fabtrack\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HuellaHandler.cs",
               "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\HuellaHandler.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\HuellaHandler.cs",
-              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\HuellaHandler.cs*",
-              "RelativeToolTip": "WinFormsApp1\\HuellaHandler.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwCsAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\HuellaHandler.cs",
+              "RelativeToolTip": "WinFormsApp1\\HuellaHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T01:03:43.807Z",
               "EditorCaption": ""
@@ -118,27 +118,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "update_user.cs",
               "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\update_user.cs",
               "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
               "RelativeToolTip": "WinFormsApp1\\update_user.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAwwHAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAqwHEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T17:54:04.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "update_user.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\update_user.cs",
               "ToolTip": "C:\\Users\\eljos\\OneDrive\\Documents\\repos\\FabTrack\\WinFormsApp1\\update_user.cs [Dise\u00F1o]",
               "RelativeToolTip": "WinFormsApp1\\update_user.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:54:03.324Z"
+              "WhenOpened": "2025-08-26T17:54:03.324Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
