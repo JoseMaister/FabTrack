@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
+
 {
 
     public partial class CapturarHuella : CaptureForm
@@ -29,7 +30,7 @@ namespace WinFormsApp1
         protected override void Process(DPFP.Sample Sample)
         {
             base.Process(Sample);
-            
+
 
             // Process the sample and create a feature set for the enrollment purpose.
             DPFP.FeatureSet features = ExtractFeatures(Sample, DPFP.Processing.DataPurpose.Enrollment);
@@ -39,7 +40,7 @@ namespace WinFormsApp1
                 {
                     MakeReport("The fingerprint feature set was created1.");
                     Enroller.AddFeatures(features);     // Add feature set to template.
-                    
+
                 }
                 finally
                 {

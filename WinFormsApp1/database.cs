@@ -157,6 +157,39 @@ namespace WinFormsApp1
 
             return empleado;
         }
+        public Dictionary<string, string> GetLector(string serie)
+        {
+            Dictionary<string, string> lector = new Dictionary<string, string>();
+
+            try
+            {
+                OpenConnection();
+                string query = "SELECT * FROM lectores WHERE serie = @serie LIMIT 1";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@serie", serie);
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    lector["idPrimaria"] = reader["id"].ToString();
+                    lector["serieÍndice"] = reader["serie"].ToString();
+                    lector["nombre"] = reader["nombre"].ToString();
+                    lector["fecha_registro"] = reader["fecha_registro"].ToString();
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al obtener lector: " + ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
+
+            return lector;
+        }
+
 
     }
 }

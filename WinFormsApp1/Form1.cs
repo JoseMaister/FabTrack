@@ -5,6 +5,7 @@ using System.Data;
 using System.Windows.Forms;
 using DPFP;
 using DPFP.Capture;
+using MySql.Data.MySqlClient;
 
 namespace WinFormsApp1
 {
@@ -15,6 +16,8 @@ namespace WinFormsApp1
         private Label[] lblUsuarios;
         private string[] serialesLectores;
         private Capture lector;
+        private List<Capture> capturadores = new List<Capture>();
+        private Dictionary<string, int> dicSerialIndex = new Dictionary<string, int>();
 
         public Form1()
         {
@@ -36,36 +39,52 @@ namespace WinFormsApp1
 
             for (int i = 0; i < dt.Rows.Count; i++)
             {
+                string serie = dt.Rows[i]["serie"].ToString().Trim(); // trim para quitar espacios
                 lblLectores[i].Text = dt.Rows[i]["nombre"].ToString();
-                serialesLectores[i] = dt.Rows[i]["serie"].ToString();
+                serialesLectores[i] = serie;
                 lblAcciones[i].Text = "";
                 lblUsuarios[i].Text = "";
+
+                // Guardamos en diccionario
+                dicSerialIndex[serie] = i;
             }
 
-            // Inicializar lector
-            lector = new Capture();
-            if (lector != null)
-            {
-                lector.EventHandler = this;
-                try { lector.StartCapture(); }
-                catch { MessageBox.Show("No se pudo iniciar el lector de huellas."); }
-            }
+            IniciarCaptura();
         }
+
 
         // -------------------------
         // DPFP EventHandler
         // -------------------------
         public void OnComplete(object Capture, string ReaderSerialNumber, Sample Sample)
         {
-            // Convertimos la huella a un hash o string único
-            string huella = ConvertSampleToString(Sample);
-
-            // Invocamos en UI thread
             this.Invoke(new Action(() =>
             {
+                // Buscar datos del lector en BD
+                database db = new database();
+                var lectorInfo = db.GetLector(ReaderSerialNumber);
+
+                if (lectorInfo.Count > 0)
+                {
+                    string info = $"📟 ID: {lectorInfo["idPrimaria"]}\n" +
+                                  $"🔑 Serie: {lectorInfo["serieÍndice"]}\n" +
+                                  $"📛 Nombre: {lectorInfo["nombre"]}\n" +
+                                  $"🕒 Registro: {lectorInfo["fecha_registro"]}";
+
+                    // MessageBox.Show(info, "Información del Lector", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show($"No se encontró en BD el lector con serie {ReaderSerialNumber}");
+                }
+
+                // Aquí sigue tu flujo normal si quieres
+                string huella = ConvertSampleToString(Sample);
                 MarcarLector(ReaderSerialNumber, huella);
             }));
         }
+
+
 
         public void OnFingerTouch(object Capture, string ReaderSerialNumber) { }
         public void OnFingerGone(object Capture, string ReaderSerialNumber) { }
@@ -78,19 +97,38 @@ namespace WinFormsApp1
         // -------------------------
         private void MarcarLector(string serieLector, string huella)
         {
-            int index = Array.IndexOf(serialesLectores, serieLector);
-            if (index == -1) return;
+            serieLector = serieLector.Trim();
 
-            lblAcciones[index].Text = "📌 Tocado";
+            int index = -1;
+            for (int i = 0; i < serialesLectores.Length; i++)
+            {
+                if (serialesLectores[i].Trim().Equals(serieLector, StringComparison.OrdinalIgnoreCase))
+                {
+                    index = i;
+                    break;
+                }
+            }
 
-            // Buscar usuario en BD
+            if (index == -1)
+            {
+                MessageBox.Show($"No se encontró el lector con serie '{serieLector}'");
+                return;
+            }
+
+            // Actualizamos el label de acciones
+            lblAcciones[index].Text = $"📌 Tocado - {serieLector}";
+
+            // Buscar usuario por huella en BD
             database db = new database();
             string query = "SELECT nombre FROM usuarios WHERE huella1=@h OR huella2=@h OR huella3=@h";
-           // var parametros = new Dictionary<string, object> { { "@h", huella } };
             DataTable dt = db.ExecuteQuery(query);
 
             lblUsuarios[index].Text = (dt.Rows.Count > 0) ? dt.Rows[0]["nombre"].ToString() : "Desconocido";
         }
+
+
+
+
 
         // -------------------------
         // Convertir Sample a string único (ejemplo simplificado)
@@ -143,5 +181,45 @@ namespace WinFormsApp1
             add_reader frm = new add_reader();
             frm.ShowDialog();
         }
+        private void IniciarCaptura()
+        {
+            try
+            {
+                // Detectamos todos los lectores conectados
+                ReadersCollection readers = new ReadersCollection();
+
+                if (readers.Count == 0)
+                {
+                    MessageBox.Show("No se detecta ningún lector");
+                    return;
+                }
+
+                foreach (var reader in readers)
+                {
+                    try
+                    {
+                        // inicializar captura para este lector
+                        Capture cap = new Capture(reader.Value.SerialNumber);
+                        cap.EventHandler = this;
+                        cap.StartCapture();
+
+                        capturadores.Add(cap);
+
+                        // Opcional: log para verificar
+                        // MessageBox.Show($"Lector {reader.Value.SerialNumber} activado ✅");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"No se pudo iniciar lector {reader.Value.SerialNumber}: {ex.Message}");
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al iniciar captura: " + ex.Message);
+            }
+        }
+
     }
 }
