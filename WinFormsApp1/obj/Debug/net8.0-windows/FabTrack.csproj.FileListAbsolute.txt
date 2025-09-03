@@ -40,7 +40,6 @@ C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\bin\Debug\net8.0-w
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\bin\Debug\net8.0-windows\DPFPCtlXWrapperNET.dll
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\bin\Debug\net8.0-windows\DPFPCtlXTypeLibNET.dll
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\bin\Debug\net8.0-windows\DPFPShrXTypeLibNET.dll
-C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.CaptureForm.resources
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.csproj.Up2Date
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.genruntimeconfig.cache
 C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\ref\FabTrack.dll
@@ -92,3 +91,6 @@ C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\refint\
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.pdb
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.genruntimeconfig.cache
 C:\xampp\htdocs\templates\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\ref\FabTrack.dll
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\FabTrack.add_reader.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.CapturarHuella.resources
+C:\Users\eljos\OneDrive\Documents\repos\FabTrack\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.CaptureForm.resources

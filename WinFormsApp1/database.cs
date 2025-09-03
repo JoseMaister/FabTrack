@@ -21,8 +21,8 @@ namespace WinFormsApp1
         public database()
         {
             // Ajusta con tus credenciales
-            connectionString = "Server=192.168.6.22;Database=fabtrack;User ID=jose;Password=123456789;SslMode=none;";
-            //connectionString = "Server=localhost;Database=fabtrack;User ID=root;Password=;SslMode=none;";
+            //connectionString = "Server=192.168.6.22;Database=fabtrack;User ID=jose;Password=123456789;SslMode=none;";
+            connectionString = "Server=localhost;Database=fabtrack;User ID=root;Password=;SslMode=none;";
             connection = new MySqlConnection(connectionString);
         }
 
